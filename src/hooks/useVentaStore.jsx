@@ -2,7 +2,6 @@ import { useDispatch } from "react-redux";
 import { UiLoading, onLogout } from "../store";
 import { SistemaPosAPI } from "../api/SistemaPosAPI";
 
-
 export const useVentaStore = () => {
 
     const dispatch = useDispatch()
